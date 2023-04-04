@@ -1,0 +1,17 @@
+.grid-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 300px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box p{
+    font-size: 60px;
+}
